@@ -12,9 +12,6 @@ EditorBuildSettings:
     path: Assets/Scenes/MENUDIFFICULTIES.unity
     guid: d65ec55457b3ff14fac7ee51c5aa3362
   - enabled: 1
-    path: Assets/Scenes/CloudClash.unity
-    guid: 17b35c80a2cb70d4dbab315b3d6dfddf
-  - enabled: 1
     path: Assets/Scenes/CLOUDCLASH DIFFICULTIES/EASY/CloudClashEASY.unity
     guid: fef4d1648288eb24c9f2c6ec749ceca0
   - enabled: 1
