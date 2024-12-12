@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1001 &2019604441237874056
+--- !u!1001 &5928722135470829545
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -82,7 +82,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6545845471280387808, guid: a4471538337949b4e8ad0370bf182187, type: 3}
       propertyPath: m_Name
-      value: FUNNIBULLET GOLDENEDITION WITH LIGHT Variant
+      value: Bullet
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 112344787647453106, guid: a4471538337949b4e8ad0370bf182187, type: 3}
@@ -91,23 +91,22 @@ PrefabInstance:
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 6545845471280387808, guid: a4471538337949b4e8ad0370bf182187, type: 3}
       insertIndex: -1
-      addedObject: {fileID: -2929372188828183671}
+      addedObject: {fileID: 3705454020706998527}
   m_SourcePrefab: {fileID: 100100000, guid: a4471538337949b4e8ad0370bf182187, type: 3}
---- !u!1 &5102737049682490216 stripped
+--- !u!1 &617149934835054857 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6545845471280387808, guid: a4471538337949b4e8ad0370bf182187, type: 3}
-  m_PrefabInstance: {fileID: 2019604441237874056}
+  m_PrefabInstance: {fileID: 5928722135470829545}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &-2929372188828183671
+--- !u!114 &3705454020706998527
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5102737049682490216}
+  m_GameObject: {fileID: 617149934835054857}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 13187b6b599fe234c978973599c56410, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scoreText: {fileID: 0}

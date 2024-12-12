@@ -614,8 +614,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 67bb940350aa0e241886e05cfd89cc7e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  character: {fileID: 247604811}
-  offset: {x: 0, y: 50, z: -90}
 --- !u!1001 &245963551
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1869,7 +1867,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cbae6cd4095802149a6b36cc4f311496, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bulletPrefab: {fileID: 5102737049682490216, guid: 658b19fd1b84f1e438de2a3594064aa9, type: 3}
+  bulletPrefab: {fileID: 617149934835054857, guid: f4c6242b6d44b8e4380c70919cf93c73, type: 3}
   bulletSpawnPoint: {fileID: 247604811}
   shootCooldown: 1
   audioSource: {fileID: 474550693}

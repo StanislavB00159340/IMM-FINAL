@@ -2,6 +2,8 @@ using UnityEngine;
 
 public class SpawnManager : MonoBehaviour
 {
+    public static SpawnManager Instance { get; private set; } // Singleton instance
+
     public GameObject enemyPrefab; // The enemy prefab to spawn
     public Transform[] spawnMarkers; // Array of markers where enemies can spawn
     public float spawnInterval = 5f; // Time interval between spawns
@@ -9,6 +11,19 @@ public class SpawnManager : MonoBehaviour
 
     private int currentEnemyCount = 0; // Track the number of enemies currently on the map
     private float spawnTimer = 0f; // Timer to manage spawn intervals
+
+    private void Awake()
+    {
+        // Ensure only one instance of SpawnManager exists
+        if (Instance == null)
+        {
+            Instance = this;
+        }
+        else
+        {
+            Destroy(gameObject);
+        }
+    }
 
     void Update()
     {

@@ -7,6 +7,9 @@ public class Bulletenemy : MonoBehaviour
         // Check if the object the bullet collided with has the "Enemy" tag
         if (other.CompareTag("Enemy"))
         {
+            // Notify the SpawnManager to decrement the enemy count
+            SpawnManager.Instance?.OnEnemyDestroyed();
+
             // Destroy the enemy
             Destroy(other.gameObject);
 
